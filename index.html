@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recherche Pépinière</title>
+    <title>Gestion Pépinière</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -91,26 +91,38 @@
             text-align: center;
             font-size: 14px;
         }
+        .data-section {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
-    <h1>Recherche de Plants</h1>
+    <h1>Gestion de la Pépinière</h1>
     
     <div class="summary">
         <div>Base de données: <span id="plant-count">0</span> variétés</div>
-        <div id="last-update">Dernière mise à jour: jamais</div>
+        <div id="last-update">Dernière mise à jour: ${new Date().toLocaleString('fr-FR')}</div>
     </div>
     
-    <input type="text" id="search" placeholder="Rechercher par variété..." autofocus>
+    <input type="text" id="search" placeholder="Rechercher par variété ou parcelle..." autofocus>
     
-    <button id="update-btn">Mettre à jour la base</button>
+    <button id="update-btn">Mettre à jour depuis Internet</button>
     <div id="status">Prêt à rechercher</div>
     
     <div id="results"></div>
 
+    <div class="data-section">
+        <h2>Base de Données Initiale</h2>
+        <pre id="raw-data"></pre>
+    </div>
+
     <script>
-        // Base de données initiale
-        let plantsData = [
+        // Base de données initiale complète
+        const initialData = [
             {parcelle: "BE5", annee_plantation: 2023, numero_rang: 1, variete_complete: "Chitalpa tashkentensis", nombre_plants: 35},
             {parcelle: "BE5", annee_plantation: 2023, numero_rang: 1, variete_complete: "Acer zoeschense 'Annalise'", nombre_plants: 30},
             {parcelle: "BE5", annee_plantation: 2023, numero_rang: 2, variete_complete: "Acer pseudoplatanus 'Bruchem'", nombre_plants: 29},
@@ -128,13 +140,27 @@
         const statusDiv = document.getElementById('status');
         const plantCountSpan = document.getElementById('plant-count');
         const lastUpdateDiv = document.getElementById('last-update');
+        const rawDataDiv = document.getElementById('raw-data');
 
-        // URL pour la mise à jour (à remplacer par votre lien)
-        const DATA_URL = "https://raw.githubusercontent.com/Pixlyx/plantlocation/refs/heads/main/plantesPepi.json";
+        // Variables d'application
+        let plantsData = [];
+        const DATA_URL = "https://raw.githubusercontent.com/Pixlyx/plantlocation/refs/heads/main/plantesPepi.json"; // Laissez vide ou mettez votre URL si disponible
 
         // Initialisation
         document.addEventListener('DOMContentLoaded', function() {
+            // Afficher les données initiales
+            rawDataDiv.textContent = JSON.stringify(initialData, null, 2);
+            
+            // Charger les données
             loadCachedData();
+            
+            // Vérifier si des données existent, sinon utiliser les données initiales
+            if (plantsData.length === 0) {
+                plantsData = [...initialData];
+                statusDiv.textContent = "Utilisation des données initiales";
+                saveDataToCache();
+            }
+            
             updatePlantCount();
             searchInput.addEventListener('input', handleSearch);
             updateBtn.addEventListener('click', updateDataset);
@@ -156,7 +182,7 @@
             if (plants.length === 0) {
                 resultsDiv.innerHTML = searchTerm ? 
                     `<div class="no-results">Aucun plant trouvé pour "${searchTerm}"</div>` :
-                    `<div class="no-results">Saisissez une variété à rechercher</div>`;
+                    `<div class="no-results">Saisissez une variété ou parcelle à rechercher</div>`;
                 return;
             }
 
@@ -201,26 +227,39 @@
         }
 
         function loadCachedData() {
-            const cachedData = localStorage.getItem('plantsData');
-            const cachedTime = localStorage.getItem('lastUpdateTime');
-            
-            if (cachedData) {
-                try {
+            try {
+                const cachedData = localStorage.getItem('plantsData');
+                if (cachedData) {
                     plantsData = JSON.parse(cachedData);
                     statusDiv.textContent = `Données locales chargées (${plantsData.length} variétés)`;
                     
+                    const cachedTime = localStorage.getItem('lastUpdateTime');
                     if (cachedTime) {
                         const updateDate = new Date(parseInt(cachedTime));
                         lastUpdateDiv.textContent = `Dernière mise à jour: ${updateDate.toLocaleString('fr-FR')}`;
                     }
-                } catch (e) {
-                    statusDiv.textContent = "Erreur de lecture des données locales";
-                    console.error(e);
                 }
+            } catch (e) {
+                console.error("Erreur de lecture du cache:", e);
+            }
+        }
+
+        function saveDataToCache() {
+            try {
+                localStorage.setItem('plantsData', JSON.stringify(plantsData));
+                localStorage.setItem('lastUpdateTime', Date.now().toString());
+                lastUpdateDiv.textContent = `Dernière mise à jour: ${new Date().toLocaleString('fr-FR')}`;
+            } catch (e) {
+                console.error("Erreur de sauvegarde dans le cache:", e);
             }
         }
 
         async function updateDataset() {
+            if (!DATA_URL) {
+                statusDiv.textContent = "Aucune URL de mise à jour configurée";
+                return;
+            }
+
             updateBtn.disabled = true;
             statusDiv.textContent = "Mise à jour en cours...";
             
@@ -231,15 +270,14 @@
                 const newData = await response.json();
                 
                 // Validation des données
-                if (!Array.isArray(newData) throw new Error("Format de données invalide");
+                if (!Array.isArray(newData)) throw new Error("Format de données invalide");
+                if (newData.length === 0) throw new Error("Aucune donnée reçue");
                 if (newData.some(p => !p.variete_complete)) throw new Error("Données incomplètes");
                 
                 plantsData = newData;
-                localStorage.setItem('plantsData', JSON.stringify(plantsData));
-                localStorage.setItem('lastUpdateTime', Date.now().toString());
+                saveDataToCache();
                 
                 statusDiv.textContent = `Base mise à jour (${plantsData.length} variétés)`;
-                lastUpdateDiv.textContent = `Dernière mise à jour: ${new Date().toLocaleString('fr-FR')}`;
                 updatePlantCount();
                 
                 if (searchInput.value) handleSearch.call(searchInput);
