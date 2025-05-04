@@ -1,22 +1,10 @@
 [
-  {
-    "species": "Quercus ilex",
-    "row": "BE Bis 5",
-    "year": 2018
-  },
-  {
-    "species": "Acer palmatum",
-    "row": "Terre pechu 5",
-    "year": 2016
-  },
-  {
-    "species": "Eleagnus ebbingei Viveleg",
-    "row": "Buclane 6",
-    "year": 2019
-  }, 
-  {
-    "species" : "Quercus rubrum",
-    "row": "BO 2",
-    "year": 2017
-  } 
-]
+            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 1, variete_complete: "Chitalpa tashkentensis", nombre_plants: 35},
+            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 1, variete_complete: "Acer zoeschense 'Annalise'", nombre_plants: 30},
+            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 2, variete_complete: "Acer pseudoplatanus 'Bruchem'", nombre_plants: 29},
+            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 2, variete_complete: "Acer campestre", nombre_plants: 34},
+            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 3, variete_complete: "Tilia cordata", nombre_plants: 29},
+            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 3, variete_complete: "Fagus sylvatica 'Purpurea'", nombre_plants: 24},
+            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 3, variete_complete: "Quercus rubra", nombre_plants: 12},
+            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 4, variete_complete: "Quercus rubra", nombre_plants: 37}
+        ]
