@@ -229,16 +229,36 @@
         async function updateDataset() {
             updateBtn.disabled = true;
             statusDiv.textContent = "Updating plant data...";
-            
+    
             try {
                 const response = await fetch(DATA_URL);
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                if (!response.ok) throw new Error(`Server returned ${response.status}`);
                 
                 const newData = await response.json();
+                console.log("Received data:", newData); // Debugging
                 
-                // Validate the data format
-                if (!Array.isArray(newData) || !newData.every(isValidPlant)) {
-                    throw new Error("Invalid data format received");
+                // Improved validation
+                if (!Array.isArray(newData)) {
+                    throw new Error("Data is not an array");
+                }
+                
+                if (newData.length === 0) {
+                    throw new Error("Empty dataset received");
+                }
+                
+                // Check first item has required fields
+                const sampleItem = newData[0];
+                const requiredFields = [
+                    'parcelle', 
+                    'annee_plantation', 
+                    'numero_rang', 
+                    'variete_complete', 
+                    'nombre_plants'
+                ];
+                
+                const missingFields = requiredFields.filter(field => !(field in sampleItem));
+                if (missingFields.length > 0) {
+                    throw new Error(`Missing fields: ${missingFields.join(', ')}`);
                 }
                 
                 // Update the dataset and cache
@@ -246,17 +266,20 @@
                 localStorage.setItem('plantData', JSON.stringify(plantData));
                 
                 statusDiv.textContent = `Data updated (${plantData.length} plants)`;
-                // Refresh search results if there's a current search
-                if (searchInput.value) {
-                    handleSearch.call(searchInput);
-                }
+                if (searchInput.value) handleSearch.call(searchInput);
+                
             } catch (error) {
+                console.error("Full error details:", error);
                 statusDiv.textContent = `Update failed: ${error.message}`;
-                console.error("Update error:", error);
-            } finally {
-                updateBtn.disabled = false;
-            }
+                
+                // Additional debug info
+                if (error.message.includes("Unexpected token")) {
+                    statusDiv.textContent += " - Invalid JSON format";
         }
+    } finally {
+        updateBtn.disabled = false;
+    }
+}
 
         function isValidPlant(plant) {
             return plant.parcelle && plant.annee_plantation && 
