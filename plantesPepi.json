@@ -1,0 +1,2683 @@
+[
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 1,
+    "variete_complete": "Chitalpa tashkentensis",
+    "nombre_plants": 35
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 1,
+    "variete_complete": "Acer zoeschense 'Annalise'",
+    "nombre_plants": 30
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 2,
+    "variete_complete": "Acer pseudoplatanus 'Bruchem'",
+    "nombre_plants": 29
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 2,
+    "variete_complete": "Acer campestre",
+    "nombre_plants": 34
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Tilia cordata",
+    "nombre_plants": 29
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Fagus sylvatica 'Purpurea'",
+    "nombre_plants": 24
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Quercus rubra",
+    "nombre_plants": 12
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Quercus rubra",
+    "nombre_plants": 37
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Sorbus aucuparia",
+    "nombre_plants": 26
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 5,
+    "variete_complete": "Alnus glutinosa",
+    "nombre_plants": 20
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 5,
+    "variete_complete": "Fagus sylvatica",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 5,
+    "variete_complete": "Acer monspessulanum",
+    "nombre_plants": 19
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Acer monspessulanum",
+    "nombre_plants": 6
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Malus 'Coccinella'",
+    "nombre_plants": 5
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Acer monspessulanum",
+    "nombre_plants": 19
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Acer saccharinum 'Pyramidale'",
+    "nombre_plants": 35
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 7,
+    "variete_complete": "Quercus ilex",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 7,
+    "variete_complete": "Liquidambar styraciflua",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 8,
+    "variete_complete": "Liquidambar styraciflua 'Worplesdon'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 8,
+    "variete_complete": "Quercus robur",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 8,
+    "variete_complete": "Prunus 'Kanzan'",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Prunus 'Kanzan'",
+    "nombre_plants": 10
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Liquidambar acalycina",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Parrotia persica 'Bella'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Morus kagayamae",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Carpinus betulus 'Orange Retz'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Koelreuteria paniculata 'Coral Sun'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Fagus sylvatica 'Swat Magret'",
+    "nombre_plants": 16
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 11,
+    "variete_complete": "Fagus sylvatica 'Swat Magret'",
+    "nombre_plants": 9
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 11,
+    "variete_complete": "Quercus palustris 'Green Pillar'",
+    "nombre_plants": 30
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 11,
+    "variete_complete": "Parrotia persica 'Persian Spire'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 12,
+    "variete_complete": "Prunus 'Royal Burgundy'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 12,
+    "variete_complete": "Betula utilis",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 12,
+    "variete_complete": "Fagus sylvatica 'Dawyck'",
+    "nombre_plants": 10
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 12,
+    "variete_complete": "Cornus controversa",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 13,
+    "variete_complete": "Cornus controversa",
+    "nombre_plants": 10
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 13,
+    "variete_complete": "Abies nordmanniana",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 13,
+    "variete_complete": "Cedrus deodara",
+    "nombre_plants": 29
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 14,
+    "variete_complete": "Cryptomeria japonica 'Elegans'",
+    "nombre_plants": 21
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 14,
+    "variete_complete": "Pinus mugo 'Mughus'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 14,
+    "variete_complete": "Taxus baccata 'Fastigiata Aurea'",
+    "nombre_plants": 26
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 15,
+    "variete_complete": "Thuja orientalis 'Aurea Nana'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 15,
+    "variete_complete": "Thuja plicata 'Excelsa'",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 15,
+    "variete_complete": "×Cupressocyparis leylandii",
+    "nombre_plants": 67
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 16,
+    "variete_complete": "×Cupressocyparis leylandii",
+    "nombre_plants": 109
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 17,
+    "variete_complete": "×Cupressocyparis leylandii",
+    "nombre_plants": 109
+  },
+  {
+    "parcelle": "BE5",
+    "annee_plantation": 2023,
+    "numero_rang": 18,
+    "variete_complete": "×Cupressocyparis leylandii",
+    "nombre_plants": 109
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 1,
+    "variete_complete": "×Cupressocyparis leylandii",
+    "nombre_plants": 109
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 2,
+    "variete_complete": "Photinia ×fraseri 'Red Robin'",
+    "nombre_plants": 27
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 2,
+    "variete_complete": "Cornus alba",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 2,
+    "variete_complete": "Cotinus 'Grace'",
+    "nombre_plants": 16
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 2,
+    "variete_complete": "Cotinus coggygria 'Royal Purple'",
+    "nombre_plants": 8
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 2,
+    "variete_complete": "Spiraea ×vanhouttei",
+    "nombre_plants": 28
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 2,
+    "variete_complete": "Corylus avellana",
+    "nombre_plants": 10
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 2,
+    "variete_complete": "Philadelphus 'Virginal'",
+    "nombre_plants": 5
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Philadelphus 'Virginal'",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Sambucus nigra 'Aurea'",
+    "nombre_plants": 18
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Salix purpurea 'Nana'",
+    "nombre_plants": 16
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Forsythia",
+    "nombre_plants": 9
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Frangula alnus",
+    "nombre_plants": 9
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Ligustrum japonicum",
+    "nombre_plants": 32
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Cercis siliquastrum",
+    "nombre_plants": 4
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Cercis siliquastrum",
+    "nombre_plants": 8
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Aronia arbutifolia 'Brilliant'",
+    "nombre_plants": 7
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Tetradium daniellii",
+    "nombre_plants": 20
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Elaeagnus ×ebbingei",
+    "nombre_plants": 7
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Spartium junceum",
+    "nombre_plants": 10
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Tamarix tetrandra",
+    "nombre_plants": 7
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Salix integra 'Hakuro Nishiki'",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Ficus carica",
+    "nombre_plants": 32
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Elaeagnus ×ebbingei 'Gilt Edge'",
+    "nombre_plants": 1
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 5,
+    "variete_complete": "Elaeagnus ×ebbingei 'Gilt Edge'",
+    "nombre_plants": 11
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 5,
+    "variete_complete": "Nerium oleander 'Rouge'",
+    "nombre_plants": 45
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 5,
+    "variete_complete": "Eucalyptus gunnii",
+    "nombre_plants": 32
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 5,
+    "variete_complete": "Nerium oleander 'Rose'",
+    "nombre_plants": 19
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Nerium oleander 'Rose'",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Nerium oleander 'Jaune'",
+    "nombre_plants": 2
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Citrus ×junos",
+    "nombre_plants": 22
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Laurus nobilis",
+    "nombre_plants": 7
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Pyracantha",
+    "nombre_plants": 18
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Prunus laurocerasus 'Rotundifolia'",
+    "nombre_plants": 28
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 7,
+    "variete_complete": "Viburnum plicatum 'Shasta'",
+    "nombre_plants": 24
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 7,
+    "variete_complete": "Cornus alba 'Elegantissima'",
+    "nombre_plants": 20
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 7,
+    "variete_complete": "Ficus carica",
+    "nombre_plants": 54
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 7,
+    "variete_complete": "Acer palmatum",
+    "nombre_plants": 19
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 8,
+    "variete_complete": "Abelia ×grandiflora",
+    "nombre_plants": 10
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 8,
+    "variete_complete": "Cornus alba 'Gouchaultii'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 8,
+    "variete_complete": "Weigela 'Stelzneri'",
+    "nombre_plants": 28
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 8,
+    "variete_complete": "Lagerstroemia indica 'Red Imperator'",
+    "nombre_plants": 24
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 8,
+    "variete_complete": "Physocarpus opulifolius 'Midnight'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Callicarpa dichotoma 'Issai'",
+    "nombre_plants": 21
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Cornus alba 'Gouchaultii'",
+    "nombre_plants": 28
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Prunus lusitanica 'Angustifolia'",
+    "nombre_plants": 26
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Phillyrea angustifolia",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Abelia ×grandiflora",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Syringa vulgaris 'Belle de Nancy'",
+    "nombre_plants": 11
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Prunus lusitanica",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Lonicera fragrantissima",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Syringa vulgaris 'Prince Wolkonsky'",
+    "nombre_plants": 12
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Hydrangea macrophylla 'Sœur Thérèse'",
+    "nombre_plants": 9
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Lagerstroemia 'Rosea'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Callicarpa dichotoma",
+    "nombre_plants": 7
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 11,
+    "variete_complete": "Ligustrum ovalifolium 'Aureum'",
+    "nombre_plants": 11
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 11,
+    "variete_complete": "Syringa vulgaris 'Katherine Havemeyer'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 11,
+    "variete_complete": "Escallonia 'Pink Belle'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 11,
+    "variete_complete": "Osmanthus ×burkwoodii",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 11,
+    "variete_complete": "Syringa 'Belle de Nancy'",
+    "nombre_plants": 28
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 12,
+    "variete_complete": "Nandina domestica",
+    "nombre_plants": 21
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 12,
+    "variete_complete": "Cornus alba 'Aurea'",
+    "nombre_plants": 28
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 12,
+    "variete_complete": "Elaeagnus ×ebbingei",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 12,
+    "variete_complete": "Abelia ×grandiflora",
+    "nombre_plants": 27
+  },
+  {
+    "parcelle": "BE6",
+    "annee_plantation": 2023,
+    "numero_rang": 12,
+    "variete_complete": "Ligustrum ovalifolium 'Aureum'",
+    "nombre_plants": 17
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 1,
+    "variete_complete": "Carpinus betulus",
+    "nombre_plants": 92
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 2,
+    "variete_complete": "Carpinus betulus",
+    "nombre_plants": 89
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Carpinus betulus",
+    "nombre_plants": 65
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 3,
+    "variete_complete": "Prunus laurocerasus 'Green Torch'",
+    "nombre_plants": 22
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 4,
+    "variete_complete": "Prunus laurocerasus 'Green Torch'",
+    "nombre_plants": 86
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 5,
+    "variete_complete": "Prunus laurocerasus 'Green Torch'",
+    "nombre_plants": 84
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Prunus laurocerasus 'Green Torch'",
+    "nombre_plants": 6
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 6,
+    "variete_complete": "Ligustrum ovalifolium",
+    "nombre_plants": 77
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 7,
+    "variete_complete": "Ligustrum ovalifolium",
+    "nombre_plants": 81
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 8,
+    "variete_complete": "Ligustrum ovalifolium",
+    "nombre_plants": 81
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Ligustrum ovalifolium",
+    "nombre_plants": 36
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 9,
+    "variete_complete": "Prunus laurocerasus 'Genolia'",
+    "nombre_plants": 46
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 10,
+    "variete_complete": "Prunus laurocerasus 'Genolia'",
+    "nombre_plants": 82
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 11,
+    "variete_complete": "Prunus laurocerasus 'Genolia'",
+    "nombre_plants": 82
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 12,
+    "variete_complete": "Prunus laurocerasus 'Genolia'",
+    "nombre_plants": 83
+  },
+  {
+    "parcelle": "BE6 BIS",
+    "annee_plantation": 2023,
+    "numero_rang": 13,
+    "variete_complete": "Prunus laurocerasus 'Genolia'",
+    "nombre_plants": 84
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Acer campestre",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Salix viminalis",
+    "nombre_plants": 63
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 2,
+    "variete_complete": "Salix viminalis",
+    "nombre_plants": 38
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 2,
+    "variete_complete": "Carpinus betulus",
+    "nombre_plants": 76
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Carpinus betulus",
+    "nombre_plants": 71
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Robinia pseudoacacia 'Casque Rouge'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Quercus palustris",
+    "nombre_plants": 20
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Quercus palustris",
+    "nombre_plants": 79
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Fagus sylvatica",
+    "nombre_plants": 42
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Fagus sylvatica",
+    "nombre_plants": 7
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Fagus sylvatica 'Purpurea'",
+    "nombre_plants": 49
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Liquidambar styraciflua",
+    "nombre_plants": 48
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Cornus controversa",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Photinia ×fraseri 'Red Robin'",
+    "nombre_plants": 96
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Photinia ×fraseri 'Red Robin'",
+    "nombre_plants": 146
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Photinia ×fraseri 'Red Robin'",
+    "nombre_plants": 141
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Cornus hongkongensis",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Cornus hongkongensis",
+    "nombre_plants": 21
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Cornus sericea 'Flaviramea'",
+    "nombre_plants": 65
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Acer palmatum",
+    "nombre_plants": 38
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Nandina domestica",
+    "nombre_plants": 22
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Taxus baccata",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Tamarix tetrandra",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Carpinus betulus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Taxus baccata",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 12,
+    "variete_complete": "Taxus baccata",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 12,
+    "variete_complete": "Elaeagnus ×ebbingei",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Elaeagnus ×ebbingei",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 14,
+    "variete_complete": "Prunus laurocerasus 'Rotundifolia'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 15,
+    "variete_complete": "Prunus laurocerasus 'Rotundifolia'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 15,
+    "variete_complete": "Prunus laurocerasus 'Caucasica'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 16,
+    "variete_complete": "Prunus laurocerasus 'Caucasica'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 17,
+    "variete_complete": "Prunus laurocerasus 'Caucasica'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 18,
+    "variete_complete": "Prunus laurocerasus 'Caucasica'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE9 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 19,
+    "variete_complete": "Prunus laurocerasus 'Caucasica'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Prunus laurocerasus 'Caucasica'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 2,
+    "variete_complete": "Prunus laurocerasus 'Caucasica'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Plantation Vinci (espèces non spécifiées)",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Euonymus europaeus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Salix purpurea 'Nana'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Hydrangea paniculata 'Vanille Fraise'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Hydrangea paniculata 'Vanille Fraise'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Choisya ternata 'Aztec Pearl'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Choisya ternata 'Gold Finger'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Callicarpa bodinieri",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Choisya ternata",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Choisya ternata",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Syringa 'Zhemchuzhina'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Nandina domestica 'Obsessed'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Cotinus coggygria 'Royal Purple'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Syringa vulgaris 'Katherine Havemeyer'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Syringa 'Rose de Moscou'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Physocarpus opulifolius 'Diabolo'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Physocarpus opulifolius 'Diabolo'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Syringa vulgaris 'Souvenir de Louis Spath'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Nandina domestica 'Fire Power'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Syringa vulgaris 'Belle de Moscou'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Nandina domestica",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Syringa vulgaris 'Prince Wolkonsky'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Cotoneaster lacteus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Syringa vulgaris 'Charles Joly'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Osmanthus ×burkwoodii",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Osmanthus ×burkwoodii",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Elaeagnus ×ebbingei",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Viburnum tinus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Phillyrea angustifolia",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Phillyrea angustifolia",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Prunus lusitanica",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Photinia 'Carré Rouge'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Photinia 'Carré Rouge'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Elaeagnus ×ebbingei",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Deutzia gracilis",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Deutzia gracilis",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Philadelphus coronarius",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Cornus alba",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Malus 'Comtesse de Paris'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Prunus 'Okame'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Cornus alba 'Kesselringii'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Weigela 'Abel Carrière'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Deutzia ×magnifica",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 12,
+    "variete_complete": "Deutzia ×magnifica",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 12,
+    "variete_complete": "Amelanchier lamarckii",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 12,
+    "variete_complete": "Ligustrum ovalifolium 'Aureum'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Corylus maxima 'Purpurea'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Corylus avellana",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Cornus alba 'Kesselringii'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Ligustrum sinense",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Ligustrum ibota",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 14,
+    "variete_complete": "Ligustrum ibota",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 14,
+    "variete_complete": "Carpinus betulus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 15,
+    "variete_complete": "Carpinus betulus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 16,
+    "variete_complete": "Carpinus betulus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 17,
+    "variete_complete": "Carpinus betulus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 17,
+    "variete_complete": "Quercus ilex",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BE10 BIS",
+    "annee_plantation": 2021,
+    "numero_rang": 18,
+    "variete_complete": "Quercus ilex",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Chamaecyparis pisifera 'Sungold'",
+    "nombre_plants": 18
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 2,
+    "variete_complete": "Thuja occidentalis 'Danica'",
+    "nombre_plants": 20
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 2,
+    "variete_complete": "Chamaecyparis pisifera 'Sungold'",
+    "nombre_plants": 4
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Taxus baccata 'Fastigiata'",
+    "nombre_plants": 26
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Thuja occidentalis 'Danica'",
+    "nombre_plants": 4
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Taxus baccata 'Fastigiata Aurea'",
+    "nombre_plants": 12
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Taxus baccata 'Fastigiata'",
+    "nombre_plants": 21
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Pinus parviflora 'Negishi'",
+    "nombre_plants": 6
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Pinus nigra 'Nana'",
+    "nombre_plants": 20
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Taxus baccata 'Fastigiata Aurea'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Pinus mugo 'Mughus'",
+    "nombre_plants": 29
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Pinus parviflora 'Negishi'",
+    "nombre_plants": 17
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Cupressus sempervirens 'Stricta'",
+    "nombre_plants": 30
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Pinus mugo 'Mughus'",
+    "nombre_plants": 9
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Pinus sylvestris 'Watereri'",
+    "nombre_plants": 33
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Cupressus sempervirens 'Stricta'",
+    "nombre_plants": 18
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Pinus mugo 'Pumilio'",
+    "nombre_plants": 24
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Pinus sylvestris 'Watereri'",
+    "nombre_plants": 34
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Pinus mugo 'Mughus' (mélangé avec Pinus pumilo)",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Pinus mugo 'Mughus' (mélangé avec Pinus pumilo)",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 12,
+    "variete_complete": "Pinus mugo 'Mughus'",
+    "nombre_plants": 51
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 12,
+    "variete_complete": "Thuja occidentalis 'Danica'",
+    "nombre_plants": 17
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Thuja occidentalis 'Danica'",
+    "nombre_plants": 28
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Berberis thunbergii 'Natasza'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 14,
+    "variete_complete": "Lagerstroemia indica 'Rosea'",
+    "nombre_plants": 80
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 15,
+    "variete_complete": "Lagerstroemia indica 'Rosea'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 15,
+    "variete_complete": "Acer palmatum",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 15,
+    "variete_complete": "Hydrangea arborescens 'Annabelle'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 15,
+    "variete_complete": "Magnolia grandiflora",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 15,
+    "variete_complete": "Elaeagnus ×ebbingei 'Gilt Edge'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 15,
+    "variete_complete": "Cornus mas",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 15,
+    "variete_complete": "Heptacodium miconioides",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 16,
+    "variete_complete": "Buddleja davidii 'Summer'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 16,
+    "variete_complete": "Acer palmatum 'Atropurpureum'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 16,
+    "variete_complete": "Buddleja davidii 'Black Knight'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 17,
+    "variete_complete": "Lonicera fragrantissima",
+    "nombre_plants": 35
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 17,
+    "variete_complete": "Spiraea thunbergii 'Fujino Pink'",
+    "nombre_plants": 16
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 17,
+    "variete_complete": "Buddleja davidii 'Summer Beauty'",
+    "nombre_plants": 16
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 18,
+    "variete_complete": "Malus 'Red Sentinel'",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 18,
+    "variete_complete": "Cotinus coggygria",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 18,
+    "variete_complete": "Lonicera fragrantissima",
+    "nombre_plants": 8
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 19,
+    "variete_complete": "Berberis 'Auricoma'",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 19,
+    "variete_complete": "Weigela 'Kosteriana'",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 19,
+    "variete_complete": "Exochorda ×macrantha",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 20,
+    "variete_complete": "Cornus sanguinea 'Midwinter Fire'",
+    "nombre_plants": 22
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 20,
+    "variete_complete": "Viburnum plicatum 'Lanarth'",
+    "nombre_plants": 49
+  },
+  {
+    "parcelle": "BO1",
+    "annee_plantation": 2021,
+    "numero_rang": 20,
+    "variete_complete": "Cercis siliquastrum",
+    "nombre_plants": 54
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Viburnum carcephalum",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Deutzia ×magnifica",
+    "nombre_plants": 55
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Viburnum rhytidophyllum",
+    "nombre_plants": 18
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Cornus sanguinea 'Midwinter Fire'",
+    "nombre_plants": 31
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 2,
+    "variete_complete": "Philadelphus 'Bouquet Blanc'",
+    "nombre_plants": 66
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 2,
+    "variete_complete": "Buddleja davidii 'Pink Delight'",
+    "nombre_plants": 38
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 2,
+    "variete_complete": "Viburnum carcephalum",
+    "nombre_plants": 22
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Philadelphus 'Manteau d'Hermine'",
+    "nombre_plants": 57
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Elaeagnus ×ebbingei 'Gilt Edge'",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Philadelphus 'Bouquet Blanc'",
+    "nombre_plants": 34
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Philadelphus coronarius",
+    "nombre_plants": 83
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Syringa vulgaris 'Dentelle d'Anjou'",
+    "nombre_plants": 49
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Philadelphus 'Manteau d'Hermine'",
+    "nombre_plants": 16
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Magnolia 'Susan'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Acer negundo 'Flamingo'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Magnolia liliiflora 'Nigra'",
+    "nombre_plants": 25
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Laburnum anagyroides",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Philadelphus coronarius",
+    "nombre_plants": 29
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Parrotia persica",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Tilia platyphyllos",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Acer saccharinum",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Liquidambar styraciflua 'Worplesdon'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Cornus florida 'Rubra'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Magnolia ×soulangeana",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Malus 'Evereste'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Parrotia persica",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Liquidambar styraciflua",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Acer rubrum",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Liquidambar styraciflua 'Worplesdon'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Sorbus aria",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Morus kagayamae",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Paulownia tomentosa",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Prunus avium",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Prunus padus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Sorbus aucuparia",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Fraxinus excelsior",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Aesculus ×carnea 'Briotti'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Acer cappadocicum 'Rubrum'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Sorbaria sorbifolia",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Sorbus aria",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Malus 'Evereste'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Tilia tomentosa 'Brabant'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Acer saccharinum",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 11,
+    "variete_complete": "Fraxinus excelsior",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 12,
+    "variete_complete": "Tilia platyphyllos",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 12,
+    "variete_complete": "Sorbus intermedia",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 12,
+    "variete_complete": "Malus 'Evereste'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Acer platanoides",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Acer pseudoplatanus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Tilia cordata",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Acer platanoides 'Crimson King'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 13,
+    "variete_complete": "Tilia platyphyllos",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 14,
+    "variete_complete": "Acer platanoides",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 16,
+    "variete_complete": "Acer campestre",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 19,
+    "variete_complete": "Acer ginnala",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 19,
+    "variete_complete": "Acer rubrum",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO2",
+    "annee_plantation": 2021,
+    "numero_rang": 19,
+    "variete_complete": "Acer campestre",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": "1-5",
+    "variete_complete": "Taxus baccata",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": "1-5",
+    "variete_complete": "×Cupressocyparis leylandii",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 6,
+    "variete_complete": "Hydrangea paniculata 'Kyushu'",
+    "nombre_plants": 150
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 6,
+    "variete_complete": "Hydrangea paniculata 'Sundae Fraise'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 7,
+    "variete_complete": "Hydrangea paniculata 'Sundae Fraise'",
+    "nombre_plants": 62
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 7,
+    "variete_complete": "Hydrangea serrata 'Bluebird'",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 7,
+    "variete_complete": "Hydrangea paniculata 'Diamant Rouge'",
+    "nombre_plants": 96
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 8,
+    "variete_complete": "Hydrangea arborescens 'Annabelle'",
+    "nombre_plants": 174
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 8,
+    "variete_complete": "Choisya ternata",
+    "nombre_plants": 32
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 9,
+    "variete_complete": "Choisya ternata",
+    "nombre_plants": 67
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 9,
+    "variete_complete": "Choisya ternata 'Aztec Pearl'",
+    "nombre_plants": 47
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 9,
+    "variete_complete": "Lagerstroemia indica 'Rosea'",
+    "nombre_plants": 70
+  },
+  {
+    "parcelle": "BO3",
+    "annee_plantation": "",
+    "numero_rang": 10,
+    "variete_complete": "Lagerstroemia indica 'Red Imperator'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 11,
+    "variete_complete": "Cornus alba 'Gouchaultii'",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 11,
+    "variete_complete": "Prunus padus",
+    "nombre_plants": 14
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 11,
+    "variete_complete": "Cornus alba",
+    "nombre_plants": 42
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 11,
+    "variete_complete": "Choisya ternata",
+    "nombre_plants": 97
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 12,
+    "variete_complete": "Choisya ternata",
+    "nombre_plants": 55
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 12,
+    "variete_complete": "Hydrangea arborescens 'Annabelle'",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 12,
+    "variete_complete": "Choisya ternata 'Aztec Pearl'",
+    "nombre_plants": 51
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 12,
+    "variete_complete": "Hydrangea paniculata 'Diamant Rouge'",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 13,
+    "variete_complete": "Hydrangea paniculata 'Diamant Rouge'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 13,
+    "variete_complete": "Hydrangea paniculata 'Sundae Vanille Fraise'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 13,
+    "variete_complete": "Hydrangea paniculata 'Phantom'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 14,
+    "variete_complete": "Hydrangea paniculata 'Kyushu'",
+    "nombre_plants": 48
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 14,
+    "variete_complete": "Hydrangea serrata 'Bluebird'",
+    "nombre_plants": 47
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 14,
+    "variete_complete": "Osmanthus heterophyllus 'Tricolor'",
+    "nombre_plants": 50
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 14,
+    "variete_complete": "Osmanthus heterophyllus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 15,
+    "variete_complete": "Osmanthus heterophyllus",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 15,
+    "variete_complete": "Sarcococca confusa",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 15,
+    "variete_complete": "Nandina domestica 'Fire Power'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "BO4",
+    "annee_plantation": "",
+    "numero_rang": 15,
+    "variete_complete": "Abelia 'Edward Goucher'",
+    "nombre_plants": ""
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Acer ×freemanii 'Jeffersred'",
+    "nombre_plants": 30
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Acer pseudoplatanus",
+    "nombre_plants": 32
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 1,
+    "variete_complete": "Salix 'Tristis'",
+    "nombre_plants": 1
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 2,
+    "variete_complete": "Salix 'Tristis'",
+    "nombre_plants": 48
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 2,
+    "variete_complete": "Acer campestre",
+    "nombre_plants": 15
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Acer campestre",
+    "nombre_plants": 36
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 3,
+    "variete_complete": "Acer pseudoplatanus",
+    "nombre_plants": 27
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Acer pseudoplatanus",
+    "nombre_plants": 13
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 4,
+    "variete_complete": "Fraxinus excelsior",
+    "nombre_plants": 48
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Fraxinus excelsior",
+    "nombre_plants": 5
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Acer monspessulanum",
+    "nombre_plants": 53
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 5,
+    "variete_complete": "Prunus subhirtella 'Pendula Rubra'",
+    "nombre_plants": 4
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Prunus subhirtella 'Pendula Rubra'",
+    "nombre_plants": 6
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Prunus subhirtella 'Autumnalis Rosea'",
+    "nombre_plants": 10
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 6,
+    "variete_complete": "Fagus sylvatica",
+    "nombre_plants": 45
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Fagus sylvatica",
+    "nombre_plants": 5
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Quercus rubra",
+    "nombre_plants": 48
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 7,
+    "variete_complete": "Acer rubrum",
+    "nombre_plants": 9
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Acer rubrum",
+    "nombre_plants": 41
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 8,
+    "variete_complete": "Prunus 'Amanogawa'",
+    "nombre_plants": 23
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Prunus 'Amanogawa'",
+    "nombre_plants": 2
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 9,
+    "variete_complete": "Liquidambar styraciflua",
+    "nombre_plants": 62
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Liquidambar styraciflua",
+    "nombre_plants": 37
+  },
+  {
+    "parcelle": "TERRE PECHU",
+    "annee_plantation": 2021,
+    "numero_rang": 10,
+    "variete_complete": "Quercus palustris",
+    "nombre_plants": 25
+  }
+]
