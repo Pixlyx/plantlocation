@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestion Pépinière</title>
+    <title>Nursery Plant Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#4CAF50">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,43 +16,39 @@
             padding: 20px;
             background-color: #f5f5f5;
         }
-        h1 {
-            color: #2e7d32;
-            text-align: center;
-        }
         #search {
             width: 100%;
             padding: 12px;
             font-size: 16px;
             margin-bottom: 20px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
             box-sizing: border-box;
+            border: 2px solid #4CAF50;
+            border-radius: 4px;
         }
         .result {
-            background-color: white;
             padding: 15px;
             margin-bottom: 10px;
-            border-radius: 4px;
+            background-color: white;
+            border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         .highlight {
-            background-color: #ffeb3b;
+            background-color: #FFEB3B;
             font-weight: bold;
         }
         .no-results {
             color: #666;
             font-style: italic;
-            text-align: center;
             padding: 20px;
+            text-align: center;
         }
-        .details {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-            margin-top: 10px;
+        .plant-details {
             font-size: 14px;
             color: #555;
+            margin-top: 8px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
         }
         .detail-item {
             display: flex;
@@ -56,10 +56,10 @@
         .detail-label {
             font-weight: bold;
             margin-right: 5px;
-            color: #2e7d32;
+            color: #4CAF50;
         }
         #update-btn {
-            background-color: #2e7d32;
+            background-color: #4CAF50;
             color: white;
             padding: 12px 20px;
             border: none;
@@ -69,9 +69,6 @@
             margin-bottom: 20px;
             width: 100%;
             transition: background-color 0.3s;
-        }
-        #update-btn:hover {
-            background-color: #1b5e20;
         }
         #update-btn:disabled {
             background-color: #cccccc;
@@ -83,97 +80,79 @@
             color: #666;
             text-align: center;
         }
-        .summary {
-            background-color: #e8f5e9;
-            padding: 10px;
-            border-radius: 4px;
-            margin-bottom: 20px;
+        .app-header {
             text-align: center;
-            font-size: 14px;
+            margin-bottom: 20px;
         }
-        .data-section {
-            margin-top: 30px;
-            padding: 15px;
-            background-color: #fff;
-            border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        .app-title {
+            color: #2E7D32;
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>Gestion de la Pépinière</h1>
-    
-    <div class="summary">
-        <div>Base de données: <span id="plant-count">0</span> variétés</div>
-        <div id="last-update">Dernière mise à jour: ${new Date().toLocaleString('fr-FR')}</div>
+    <div class="app-header">
+        <h1 class="app-title">Nursery Plant Search</h1>
     </div>
     
-    <input type="text" id="search" placeholder="Rechercher par variété ou parcelle..." autofocus>
+    <button id="update-btn">Update Plant Data</button>
+    <div id="status">Loading plant data...</div>
     
-    <button id="update-btn">Mettre à jour depuis Internet</button>
-    <div id="status">Prêt à rechercher</div>
-    
+    <input type="text" id="search" placeholder="Search by plant variety..." autofocus>
     <div id="results"></div>
 
-    <div class="data-section">
-        <h2>Base de Données Initiale</h2>
-        <pre id="raw-data"></pre>
-    </div>
-
     <script>
-        // Base de données initiale complète
-        const initialData = [
-            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 1, variete_complete: "Chitalpa tashkentensis", nombre_plants: 35},
-            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 1, variete_complete: "Acer zoeschense 'Annalise'", nombre_plants: 30},
-            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 2, variete_complete: "Acer pseudoplatanus 'Bruchem'", nombre_plants: 29},
-            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 2, variete_complete: "Acer campestre", nombre_plants: 34},
-            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 3, variete_complete: "Tilia cordata", nombre_plants: 29},
-            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 3, variete_complete: "Fagus sylvatica 'Purpurea'", nombre_plants: 24},
-            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 3, variete_complete: "Quercus rubra", nombre_plants: 12},
-            {parcelle: "BE5", annee_plantation: 2023, numero_rang: 4, variete_complete: "Quercus rubra", nombre_plants: 37}
+        // Default dataset - will be replaced by cached or online data
+        let plantData = [
+            {
+                "parcelle": "BE5",
+                "annee_plantation": 2023,
+                "numero_rang": 1,
+                "variete_complete": "Chitalpa tashkentensis",
+                "nombre_plants": 35
+            },
+            {
+                "parcelle": "BE5",
+                "annee_plantation": 2023,
+                "numero_rang": 1,
+                "variete_complete": "Acer zoeschense 'Annalise'",
+                "nombre_plants": 30
+            },
+            {
+                "parcelle": "BE5",
+                "annee_plantation": 2023,
+                "numero_rang": 2,
+                "variete_complete": "Acer pseudoplatanus 'Bruchem'",
+                "nombre_plants": 29
+            }
         ];
 
-        // Éléments du DOM
+        // URL to your online dataset (replace with your actual URL)
+        const DATA_URL = "https://raw.githubusercontent.com/Pixlyx/plantlocation/refs/heads/main/plantesPepi.json";
+        
+        // DOM elements
         const searchInput = document.getElementById('search');
         const resultsDiv = document.getElementById('results');
         const updateBtn = document.getElementById('update-btn');
         const statusDiv = document.getElementById('status');
-        const plantCountSpan = document.getElementById('plant-count');
-        const lastUpdateDiv = document.getElementById('last-update');
-        const rawDataDiv = document.getElementById('raw-data');
 
-        // Variables d'application
-        let plantsData = [];
-        const DATA_URL = "https://raw.githubusercontent.com/Pixlyx/plantlocation/refs/heads/main/plantesPepi.json"; // Laissez vide ou mettez votre URL si disponible
-
-        // Initialisation
+        // Initialize the app
         document.addEventListener('DOMContentLoaded', function() {
-            // Afficher les données initiales
-            rawDataDiv.textContent = JSON.stringify(initialData, null, 2);
-            
-            // Charger les données
+            // Try to load cached data first
             loadCachedData();
             
-            // Vérifier si des données existent, sinon utiliser les données initiales
-            if (plantsData.length === 0) {
-                plantsData = [...initialData];
-                statusDiv.textContent = "Utilisation des données initiales";
-                saveDataToCache();
-            }
-            
-            updatePlantCount();
+            // Set up event listeners
             searchInput.addEventListener('input', handleSearch);
             updateBtn.addEventListener('click', updateDataset);
-            displayResults([], '');
         });
 
         function handleSearch() {
             const searchTerm = this.value.toLowerCase();
             const filteredData = searchTerm ? 
-                plantsData.filter(plant => 
-                    plant.variete_complete.toLowerCase().includes(searchTerm) ||
-                    plant.parcelle.toLowerCase().includes(searchTerm)
-                ) : [];
+                plantData.filter(plant => 
+                    plant.variete_complete.toLowerCase().includes(searchTerm)
+                ) : 
+                [];
             
             displayResults(filteredData, searchTerm);
         }
@@ -181,17 +160,17 @@
         function displayResults(plants, searchTerm) {
             if (plants.length === 0) {
                 resultsDiv.innerHTML = searchTerm ? 
-                    `<div class="no-results">Aucun plant trouvé pour "${searchTerm}"</div>` :
-                    `<div class="no-results">Saisissez une variété ou parcelle à rechercher</div>`;
+                    `<div class="no-results">No plants found matching "${searchTerm}"</div>` :
+                    `<div class="no-results">Type to search for plants</div>`;
                 return;
             }
 
             resultsDiv.innerHTML = plants.map(plant => {
-                const variete = highlightMatch(plant.variete_complete, searchTerm);
+                const variety = highlightMatch(plant.variete_complete, searchTerm);
                 return `
                     <div class="result">
-                        <div class="variete">${variete}</div>
-                        <div class="details">
+                        <div class="variety">${variety}</div>
+                        <div class="plant-details">
                             <div class="detail-item">
                                 <span class="detail-label">Parcelle:</span>
                                 <span>${plant.parcelle}</span>
@@ -201,12 +180,12 @@
                                 <span>${plant.numero_rang}</span>
                             </div>
                             <div class="detail-item">
-                                <span class="detail-label">Planté en:</span>
+                                <span class="detail-label">Planté:</span>
                                 <span>${plant.annee_plantation}</span>
                             </div>
                             <div class="detail-item">
-                                <span class="detail-label">Nombre:</span>
-                                <span>${plant.nombre_plants} plants</span>
+                                <span class="detail-label">Quantité:</span>
+                                <span>${plant.nombre_plants}</span>
                             </div>
                         </div>
                     </div>
@@ -223,75 +202,78 @@
             if (startIndex === -1) return text;
             
             const endIndex = startIndex + searchTerm.length;
-            return `${text.substring(0, startIndex)}<span class="highlight">${text.substring(startIndex, endIndex)}</span>${text.substring(endIndex)}`;
+            const before = text.substring(0, startIndex);
+            const match = text.substring(startIndex, endIndex);
+            const after = text.substring(endIndex);
+            
+            return `${before}<span class="highlight">${match}</span>${after}`;
         }
 
         function loadCachedData() {
-            try {
-                const cachedData = localStorage.getItem('plantsData');
-                if (cachedData) {
-                    plantsData = JSON.parse(cachedData);
-                    statusDiv.textContent = `Données locales chargées (${plantsData.length} variétés)`;
-                    
-                    const cachedTime = localStorage.getItem('lastUpdateTime');
-                    if (cachedTime) {
-                        const updateDate = new Date(parseInt(cachedTime));
-                        lastUpdateDiv.textContent = `Dernière mise à jour: ${updateDate.toLocaleString('fr-FR')}`;
-                    }
+            const cachedData = localStorage.getItem('plantData');
+            if (cachedData) {
+                try {
+                    plantData = JSON.parse(cachedData);
+                    statusDiv.textContent = `Using cached data (${plantData.length} plants)`;
+                    displayResults([], '');
+                } catch (e) {
+                    statusDiv.textContent = "Error loading cached data, using default";
+                    console.error("Error parsing cached data:", e);
                 }
-            } catch (e) {
-                console.error("Erreur de lecture du cache:", e);
-            }
-        }
-
-        function saveDataToCache() {
-            try {
-                localStorage.setItem('plantsData', JSON.stringify(plantsData));
-                localStorage.setItem('lastUpdateTime', Date.now().toString());
-                lastUpdateDiv.textContent = `Dernière mise à jour: ${new Date().toLocaleString('fr-FR')}`;
-            } catch (e) {
-                console.error("Erreur de sauvegarde dans le cache:", e);
+            } else {
+                statusDiv.textContent = "Using default dataset";
+                displayResults([], '');
             }
         }
 
         async function updateDataset() {
-            if (!DATA_URL) {
-                statusDiv.textContent = "Aucune URL de mise à jour configurée";
-                return;
-            }
-
             updateBtn.disabled = true;
-            statusDiv.textContent = "Mise à jour en cours...";
+            statusDiv.textContent = "Updating plant data...";
             
             try {
                 const response = await fetch(DATA_URL);
-                if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                 
                 const newData = await response.json();
                 
-                // Validation des données
-                if (!Array.isArray(newData)) throw new Error("Format de données invalide");
-                if (newData.length === 0) throw new Error("Aucune donnée reçue");
-                if (newData.some(p => !p.variete_complete)) throw new Error("Données incomplètes");
+                // Validate the data format
+                if (!Array.isArray(newData) || !newData.every(isValidPlant)) {
+                    throw new Error("Invalid data format received");
+                }
                 
-                plantsData = newData;
-                saveDataToCache();
+                // Update the dataset and cache
+                plantData = newData;
+                localStorage.setItem('plantData', JSON.stringify(plantData));
                 
-                statusDiv.textContent = `Base mise à jour (${plantsData.length} variétés)`;
-                updatePlantCount();
-                
-                if (searchInput.value) handleSearch.call(searchInput);
-                
+                statusDiv.textContent = `Data updated (${plantData.length} plants)`;
+                // Refresh search results if there's a current search
+                if (searchInput.value) {
+                    handleSearch.call(searchInput);
+                }
             } catch (error) {
-                statusDiv.textContent = `Échec de mise à jour: ${error.message}`;
-                console.error(error);
+                statusDiv.textContent = `Update failed: ${error.message}`;
+                console.error("Update error:", error);
             } finally {
                 updateBtn.disabled = false;
             }
         }
 
-        function updatePlantCount() {
-            plantCountSpan.textContent = plantsData.length;
+        function isValidPlant(plant) {
+            return plant.parcelle && plant.annee_plantation && 
+                   plant.numero_rang && plant.variete_complete && 
+                   plant.nombre_plants !== undefined;
+        }
+
+        // Service Worker Registration for PWA
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registered');
+                    }).catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
         }
     </script>
 </body>
