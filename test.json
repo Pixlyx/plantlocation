@@ -1,4 +1,12 @@
 [
-    {"species": "Quercus robur", "row": "A1", "year": 2018},
-    {"species": "Acer pseudoplatanus", "row": "B3", "year": 2019}
+  {
+    "species": "test",
+    "row": "test",
+    "year": 2000
+  },
+  {
+    "species": "testé",
+    "row": "testé²",
+    "year": 300
+  }
 ]
