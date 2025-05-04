@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tree Nursery Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add these PWA meta tags -->
+    <meta name="theme-color" content="#4CAF50">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #search {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .result {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        .no-results {
+            color: #666;
+            font-style: italic;
+        }
+        .details {
+            font-size: 14px;
+            color: #555;
+            margin-top: 5px;
+        }
+        #update-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        #update-btn:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        #status {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recherche une plante</h1>
+    <button id="update-btn">Update Dataset</button>
+    <div id="status"></div>
+    <input type="text" id="search" placeholder="Search by plant species..." autofocus>
+    <div id="results"></div>
+    
+    <script>
+        // Add this service worker registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registered');
+                    }).catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+        
+        // Default dataset - will be replaced by cached or online data
+        let nurseryData = [
+            { species: "Quercus robur", row: "Bredy Est 2", year: 2018 },
+            { species: "Acer pseudoplatanus", row: "Terre Pechu 5", year: 2019 },
+            // Add more default data if needed
+        ];
+
+        // URL to your online dataset (replace with your actual URL)
+        const DATA_URL = "https://raw.githubusercontent.com/Pixlyx/plantlocation/refs/heads/main/test.json";
+        
+        // DOM elements
+        const searchInput = document.getElementById('search');
+        const resultsDiv = document.getElementById('results');
+        const updateBtn = document.getElementById('update-btn');
+        const statusDiv = document.getElementById('status');
+
+        // Initialize the app
+        document.addEventListener('DOMContentLoaded', function() {
+            // Try to load cached data first
+            loadCachedData();
+            
+            // Set up event listeners
+            searchInput.addEventListener('input', handleSearch);
+            updateBtn.addEventListener('click', updateDataset);
+            
+            // Initial display
+            displayResults([], '');
+        });
+
+        function handleSearch() {
+            const searchTerm = this.value.toLowerCase();
+            const filteredData = searchTerm ? 
+                nurseryData.filter(plant => 
+                    plant.species.toLowerCase().includes(searchTerm)
+                ) : 
+                [];
+            
+            displayResults(filteredData, searchTerm);
+        }
+
+        function displayResults(plants, searchTerm) {
+            if (plants.length === 0) {
+                resultsDiv.innerHTML = searchTerm ? 
+                    `<div class="no-results">No plants found matching "${searchTerm}"</div>` :
+                    `<div class="no-results">Type to search for plants</div>`;
+                return;
+            }
+
+            resultsDiv.innerHTML = plants.map(plant => {
+                const species = highlightMatch(plant.species, searchTerm);
+                return `
+                    <div class="result">
+                        <div class="species">${species}</div>
+                        <div class="details">Row: ${plant.row} | Planted: ${plant.year}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function highlightMatch(text, searchTerm) {
+            if (!searchTerm) return text;
+            
+            const lowerText = text.toLowerCase();
+            const startIndex = lowerText.indexOf(searchTerm);
+            
+            if (startIndex === -1) return text;
+            
+            const endIndex = startIndex + searchTerm.length;
+            const before = text.substring(0, startIndex);
+            const match = text.substring(startIndex, endIndex);
+            const after = text.substring(endIndex);
+            
+            return `${before}<span class="highlight">${match}</span>${after}`;
+        }
+
+        function loadCachedData() {
+            const cachedData = localStorage.getItem('nurseryData');
+            if (cachedData) {
+                try {
+                    nurseryData = JSON.parse(cachedData);
+                    statusDiv.textContent = `Using cached data (${nurseryData.length} plants)`;
+                } catch (e) {
+                    statusDiv.textContent = "Error loading cached data, using default";
+                    console.error("Error parsing cached data:", e);
+                }
+            } else {
+                statusDiv.textContent = "Using default dataset";
+            }
+        }
+
+        async function updateDataset() {
+            updateBtn.disabled = true;
+            statusDiv.textContent = "Updating dataset...";
+            
+            try {
+                const response = await fetch(DATA_URL);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                
+                const newData = await response.json();
+                
+                // Validate the data format
+                if (!Array.isArray(newData) || !newData.every(isValidPlant)) {
+                    throw new Error("Invalid data format received");
+                }
+                
+                // Update the dataset and cache
+                nurseryData = newData;
+                localStorage.setItem('nurseryData', JSON.stringify(nurseryData));
+                
+                statusDiv.textContent = `Dataset updated (${nurseryData.length} plants)`;
+                // Refresh search results if there's a current search
+                if (searchInput.value) {
+                    handleSearch.call(searchInput);
+                }
+            } catch (error) {
+                statusDiv.textContent = "Update failed - using cached data";
+                console.error("Update error:", error);
+            } finally {
+                updateBtn.disabled = false;
+            }
+        }
+
+        function isValidPlant(plant) {
+            return plant.species && plant.row && plant.year;
+        }
+    </script>
+</body>
+</html>
