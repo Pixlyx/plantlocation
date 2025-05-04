@@ -1,7 +1,7 @@
 [
   {
     "species": "Quercus ilex",
-    "row": "Bredy Est Bis 5",
+    "row": "BE Bis 5",
     "year": 2018
   },
   {
@@ -13,5 +13,10 @@
     "species": "Eleagnus ebbingei Viveleg",
     "row": "Buclane 6",
     "year": 2019
-  }
+  }, 
+  {
+    "species" : "Quercus rubrum",
+    "row": "BO 2",
+    "year": 2017
+  } 
 ]
